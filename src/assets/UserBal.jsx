@@ -14,7 +14,7 @@ function UserBal() {
   
     getBalance();
   return (
-    <div>
+    <div className='flex place-content-center text-white'>
        <p>SOL Balance:</p> <div id="balance"></div>
     </div>
   )

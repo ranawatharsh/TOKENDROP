@@ -2,6 +2,7 @@ import { useState } from 'react'
 import UserBal from './assets/UserBal';
 import Airdrop from './assets/Airdrop';
 import './App.css'
+import InfoBox from './assets/InfoBox';
 import React, { FC, useMemo } from 'react';
 import { ConnectionProvider, WalletProvider } from '@solana/wallet-adapter-react';
 import { WalletAdapterNetwork } from '@solana/wallet-adapter-base';
@@ -28,11 +29,16 @@ function App() {
                 <WalletModalProvider >
                     <div className="flex flex-row justify-between items-center p-2">
                     <WalletMultiButton  />
-                    <h1 className='text-white font-bold  text-2xl'>TOKEN DROP</h1>
+                    <h1 className='text-white font-bold  text-3xl'>TOKEN DROP</h1>
                      <WalletDisconnectButton />
+                     </div>
+                     <div className='flex place-content-center  mt-16'>
+                     <h2 className='text-white font-bold  text-4xl'>Claim your FREE TOKENs </h2>
+                     {/* <h3>Join our ecosystem and get rewarded !</h3> */}
                      </div>
                      <Airdrop className='m-2'/>
                      <UserBal/>
+                     <InfoBox/>
                     { /* Your app's components go here, nested within the context providers. */ }
                 </WalletModalProvider>
             </WalletProvider>

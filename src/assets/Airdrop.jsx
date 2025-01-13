@@ -9,9 +9,9 @@ function Airdrop() {
      alert('Airdropped Sol')
   }
   return (
-    <div>
-      <input id='amnt' type='text' placeholder='Amount'></input>
-      <button  onClick={sendAirdrop}>Send Airdrop </button>
+    <div className='flex place-content-center mt-16'>
+      <input className='rounded-lg h-12' id='amnt' type='text' placeholder=' Amount'></input>
+      <button className='rounded-lg bg-black text-white p-2' onClick={sendAirdrop}>Send Airdrop </button>
     </div>
   )
 }
