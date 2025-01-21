@@ -29,11 +29,11 @@ function App() {
                 <WalletModalProvider >
                     <div className="flex flex-row justify-between items-center p-2">
                     <WalletMultiButton  />
-                    <h1 className='text-white font-bold  text-3xl'>TOKEN DROP</h1>
+                    <h1 className='text-white font-bold  text-3xl'>$trump DROP</h1>
                      <WalletDisconnectButton />
                      </div>
                      <div className='flex place-content-center  mt-16'>
-                     <h2 className='text-white font-bold  text-4xl'>Claim your FREE TOKENs </h2>
+                     <h2 className='text-white font-bold  text-4xl'>Claim your FREE $Trump </h2>
                      {/* <h3>Join our ecosystem and get rewarded !</h3> */}
                      </div>
                      <Airdrop className='m-2'/>
