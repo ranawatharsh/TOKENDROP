@@ -7,7 +7,7 @@ function InfoBox() {
           <div className="bg-white/10 rounded-lg p-6 backdrop-blur-sm">
             {/* <h3 className="text-gray-400 mb-2">Total Claimed</h3>
             <p className="text-2xl font-bold">1,234,567 TKN</p> */}
-            <img src='https://www.sanalsavunma.com/wp-content/uploads/2025/01/trump-coin-1070x803.jpg'></img>
+            <img src='https://www.newsbtc.com/wp-content/uploads/2025/02/sol_69ab3a.jpg?fit=860%2C573'></img>
           </div>
           <div className="bg-white/10 rounded-lg p-6 backdrop-blur-sm">
             {/* <h3 className="text-gray-400 mb-2">Participants</h3>
@@ -19,7 +19,7 @@ function InfoBox() {
           <div className="bg-white/10 rounded-lg p-6 backdrop-blur-sm">
             {/* <h3 className="text-gray-400 mb-2">Time Remaining</h3>
             <p className="text-2xl font-bold flex items-center gap-2"> */}
-            <img src='https://th.bing.com/th/id/OIF.1vnnY77foMQEMhLTIGoSYQ?rs=1&pid=ImgDetMain'></img>
+            <img src='https://tse2.mm.bing.net/th/id/OIP.jVSPW8k40-X2TVDgFdpVkgHaEd?r=0&rs=1&pid=ImgDetMain&o=7&rm=3'></img>
               {/* <Clock size={24} /> */}
               {/* 48h 32m */}
             {/* </p> */}
